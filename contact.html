@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head dir="rtl">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>⭐⭐ محمد سليمان أحمد⭐⭐</title>
+    <link rel="icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="contact.css" />
+    <div class="navbar">
+      <h1>
+        <a href="abigh.html" style="text-decoration-line: none">الرئيسية</a>
+        <a href="mypage.htm" style="text-decoration-line: none">
+          الصفحة الشخصية</a
+        >
+        <a href="news.html" style="text-decoration-line: none"> الأخبار</a>
+        <a href="contact.html" style="text-decoration-line: none"> التواصل</a>
+        <hr width="100%" size="10" />
+      </h1>
+    </div>
+  </head>
+  <body dir="rtl" bgcolor="F7EFE5">
+    <div>
+    <strong>
+      للتواصل يرجى ادخال البيانات التالية :
+      <form
+        action="mailto:ramzy_el55@yahoo.com"
+        method="post"
+        enctype="text/plain"
+      >
+        <fieldset class="ness" >
+          <legend>بيانات اجبارية *</legend>
+          الاسم :
+          <input type="text" required />   تاريخ الميلاد:
+          <input type="date" required /><br><br />الايميل :
+          <input type="email" required />
+          كلمة السر :
+          <input type="password" required /><br />
+          الجنس :
+          <input type="radio" name="gen" required /> ذكر🚹
+          <input type="radio" name="gen" required />انثى 🚺<br />
+          الديانة :
+          <select aria-required="true">
+            <option>مسلم 😊</option>
+            <option>غيرمسلم 😒</option></select
+          ><br />
+          اللغات :
+          <input type="checkbox" name="releg" required />العربية
+          <input type="checkbox" name="releg" required /> الانجليزية
+          <input type="checkbox" name="releg" required /> الفرنسية
+          <input type="checkbox" name="releg" required /> الالمانية
+          <input type="checkbox" name="releg" required /> الاسبانية
+          <br />
+          ارفاق ملف:
+          <button
+            type="button"
+            onclick="document.getElementById('file').click()"
+          >
+            اختيار ملف
+          </button>
+          <h3>
+            <p onclick="document.getElementById('file').click()">
+              👈🏽 اضغط هنا للتحميل
+            </p>
+          </h3>
+          <input style="display: none" type="file" name="" id="file" required />
+        </fieldset> <br>
+        التقييم :من "1" غير راضى مطلقا الى "5" راضي جدا
+        <input
+          type="number"br
+          name="التقييم"
+          value="التقييم"
+          min="1"
+          max="5"
+        /> <br> <br />
+        ملاحظاتك :
+        <textarea name="" id="" cols="30" rows="5"></textarea><br />
+        <button class="bb" type="reset">مسح</button>
+        <button class="bb" type="submit">ارسال</button> <br />
+        <div class="see"></div></form
+    ></strong>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+body {
+  background-image: url("images/coran.jfif");
+  text-align: center;
+  width: 100%;
+  color: rgb(0, 255, 255);
+}
+.abigh {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  top: 0;
+  bottom: 0;
+  color: rgb(255, 77, 0);
+  margin: 0 auto 0 0;
+  padding-top: 10px;
+  padding-left: 10px;
+  border-width: 0 10 0 0;
+}
+.abigh :hover {
+  color: rgb(165, 42, 42);
+}
+.alfatiha {
+  padding-top: 30px;
+}
+a {
+  color: aquamarine;
+  text-decoration-line: none;
+
+  background-color: #020666;
+  border-radius: 20px;
+  color: white;
+  padding: 14px 10px 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.mypage {
+  background-color: aquamarine;
+}
+.allah {
+  border-radius: 50%;
+  padding-top: 20px;
+  size: 10px;
+  width: 250px;
+  border: 20px;
+  animation-name: alternative;
+  animation-duration: 0.7s;
+  animation-direction: reverse;
+}
+.search {
+  right: 50px;
+  position: relative;
+  display: inline;
+  background-color: blue;
+}
